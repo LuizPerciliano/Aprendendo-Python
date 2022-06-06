@@ -1,0 +1,4 @@
+# ignora quaisquer diretórios de ambiente virtual python (env/venv)
+## pegar um script que inicia tbm com env
+.env/
+.venv/
