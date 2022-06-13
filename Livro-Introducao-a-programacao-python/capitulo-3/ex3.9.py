@@ -1,0 +1,7 @@
+nome = str(input("Digite seu nome: "))
+dias = input("Digite a quantidade de dias: ")
+horas = input("Digite a quantidade de horas: ")
+minutos = input("Digite a quantidade de minutos: ")
+segundos = input("Digite a quantidade de segundos: ")
+total_segundos = (int(segundos) * 1) + (int(minutos) * 60) + (int(horas) * 60 * 60)
+print(f"{str.upper(nome)}, a quantidade de segundos total é {total_segundos}")
