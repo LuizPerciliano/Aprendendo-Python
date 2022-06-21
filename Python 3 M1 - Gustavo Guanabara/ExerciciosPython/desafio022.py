@@ -7,3 +7,4 @@ print(f"Quantidade de caracteres totais sem espaços é {len(nome) - qtd_espaco}
 nome_dividido = nome.split()
 print(nome_dividido)
 print(f"O primeiro nome {nome_dividido[0]} tem {len(nome_dividido[0])} caracateres.")
+print('Seu primeiro nome tem {} letras'.format(nome.find(' '))) # pesquisa primeiro espaço e sua posição

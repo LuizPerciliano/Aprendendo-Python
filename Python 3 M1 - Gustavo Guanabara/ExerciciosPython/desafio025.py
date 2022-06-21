@@ -1,2 +1,2 @@
 nome = input("Digite um nome: ").lower()
-print(f"Tem 'Silva' no nome? {'silva' in nome} ")
+print(f"Tem 'Silva' no nome? {'silva' in nome} ") # operador in
