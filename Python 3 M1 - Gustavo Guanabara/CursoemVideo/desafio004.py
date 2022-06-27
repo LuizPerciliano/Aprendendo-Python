@@ -1,5 +1,0 @@
-resultado = input('Digite algo: ')
-print(type(resultado))
-print(f'O {resultado} é um número? ',resultado.isalnum())
-print(resultado.isupper())
-print(resultado.isnumeric())
