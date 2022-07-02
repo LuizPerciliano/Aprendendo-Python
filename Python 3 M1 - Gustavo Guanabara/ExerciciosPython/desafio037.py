@@ -1,3 +1,6 @@
+# depois de ver a solucão, tentar implementar com match
+    # https://docs.python.org/3/tutorial/controlflow.html#match-statements
+
 from datetime import date
 from time import sleep
 
@@ -17,6 +20,10 @@ num_conversao = int(input("Digite: \n1 para binário \n2 para octal \n3 para hex
 if num_conversao == 1:
     print("PROCESSANDO ...")
     sleep(2)
-    print(f"O número {numero} convertido para binário é {numero + num_conversao}")
+    print(f"O número {numero} convertido para binário é {numero + num_conversao}") ## tem uma explicacao muito boa do LAcerda dos Canetas Pretas
+elif num_conversao == 2:
+    print(f"O número {numero} convertido para octal é: ")
+elif num_conversao == 3:
+    print(f"O número {numero} convertido para hexadecimal é: ")
 else:
     print(f"Vamos continuar tentando...")
