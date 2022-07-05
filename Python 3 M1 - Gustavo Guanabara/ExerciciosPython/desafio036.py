@@ -1,3 +1,6 @@
+#Aula extra de “Notação Posicional - Bases Numéricas”
+# https://youtu.be/J5q7s7l2EuI?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi
+
 from datetime import date
 from time import sleep
 
@@ -13,13 +16,13 @@ valor_parcela = valor_casa / qtde_parcelas
 valor_salario_max = salario * 0.30
 
 if valor_parcela > valor_salario_max:
-    print("PROCESSANDO ...")
+    print("PROCESSANDO ... \n")
     sleep(2)
     print(f"\033[31mSorry man, você não conseguirá empréstimo com esses dados.\033[m")
 else:
     print(f"\033[34mYes man, só pegar, o empréstimo é seu!!!\033[m")
-
-print(f"A quantidade de parcelas serão {qtde_parcelas}, o valor de cada uma será R$ {valor_parcela:.2f}!")
+print('\n')
+print(f"Serão {qtde_parcelas} parcelas, o valor de cada será R$ {valor_parcela:.2f}!")
 print(f"Seu salário é R$ {salario} e sua parcela não pode exceder R$ {valor_salario_max:.2f}.")
 
 
