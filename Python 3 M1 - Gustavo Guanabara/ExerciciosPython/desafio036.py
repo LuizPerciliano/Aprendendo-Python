@@ -1,5 +1,3 @@
-#Aula extra de “Notação Posicional - Bases Numéricas”
-# https://youtu.be/J5q7s7l2EuI?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi
 
 from datetime import date
 from time import sleep

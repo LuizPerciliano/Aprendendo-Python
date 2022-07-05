@@ -1,6 +1,9 @@
 # depois de ver a solucão, tentar implementar com match
     # https://docs.python.org/3/tutorial/controlflow.html#match-statements
 
+#Aula extra de “Notação Posicional - Bases Numéricas”
+# https://youtu.be/J5q7s7l2EuI?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi
+
 from datetime import date
 from time import sleep
 
