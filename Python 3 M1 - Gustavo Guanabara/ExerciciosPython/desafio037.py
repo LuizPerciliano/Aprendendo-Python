@@ -19,14 +19,18 @@ print(f" \t {dict_colors['gray&purple']} Desafio 037 - Ano {date.today().year}{d
 print(f"{dict_colors['blue_']}{desenho}{dict_colors['close']}")
 
 numero = int(input("Digite um número inteiro para a conversão: "))
-num_conversao = int(input("Digite: \n1 para binário \n2 para octal \n3 para hexadecimal "))
+num_conversao = int(input('''Escolha uma das bases para conversão:
+    [ 1 ] para binário
+    [ 2 ] para octal
+    [ 3 ] para hexadecimal 
+    >>> '''))
 if num_conversao == 1:
     print("PROCESSANDO ...")
     sleep(2)
-    print(f"O número {numero} convertido para binário é {numero + num_conversao}") ## tem uma explicacao muito boa do LAcerda dos Canetas Pretas
+    print(f"O número {numero} convertido para binário é {bin(numero)[2:]}") ## tem uma explicacao muito boa do LAcerda dos Canetas Pretas
 elif num_conversao == 2:
-    print(f"O número {numero} convertido para octal é: ")
+    print(f"O número {numero} convertido para octal é {oct(numero)[2:]} ")
 elif num_conversao == 3:
-    print(f"O número {numero} convertido para hexadecimal é: ")
+    print(f"O número {numero} convertido para hexadecimal é {hex(numero)[2:]} ")
 else:
     print(f"Vamos continuar tentando...")
