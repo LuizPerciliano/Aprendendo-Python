@@ -6,11 +6,24 @@ https://buzzfeed.com.br/quiz/vamos-jogar-jokenpo#:~:text=Caso%20voc%C3%AA%20n%C3
 '''
 import random
 
-opi = int(input("Digite:\n 1 - Pedra\n 2 - Papel\n 3 - Tesoura\n >>> "))
+from time import sleep
+
 pc = random.randint(1,3)
 
+opi = int(input('''Suas opções:
+        1 - Pedra
+        2 - Papel
+        3 - Tesoura
+        >>> '''))
+sleep(0.5)
+print("JO")
+sleep(0.5)
+print("KEN")
+sleep(0.5)
+print("PO!!!")
+
 if opi == 1 and pc == 1:
-    print(f"Ambos pedra - empate")
+    print(f"EMPATE")
 elif opi == 1 and pc == 2:
     print(f"A pedra é embrulhada pelo papel, YOU LOSE!!!")
 elif opi ==1 and pc == 3:

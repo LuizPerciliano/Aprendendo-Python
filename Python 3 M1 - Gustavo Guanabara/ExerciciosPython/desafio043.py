@@ -1,12 +1,13 @@
 #https://www.programasaudefacil.com.br/calculadora-de-imc
 
-peso = float(input("Digite seu peso: "))
-altura = float(input("Digite sua altura: "))
+peso = float(input("Digite seu peso: (Kg) "))
+altura = float(input("Digite sua altura: (metros) "))
 
 imc = peso / (altura ** 2)
 if imc < 18.5:
     print("Abaixo do peso")
-elif imc >= 18.5 and imc < 25:
+#elif imc >= 18.5 and imc < 25:
+elif 18.5 <= imc < 25:
     print("Peso ideal")
 elif imc > 25 and imc < 30 :
     print("Sobrepeso")
@@ -16,5 +17,5 @@ else:
     print("Putz, obesidade mórbida!!!")
 
 
-print(f"Sua altura é {altura}, seu peso é {peso}, seu IMC é {imc}!")
+print(f"Sua altura é {altura}, seu peso é {peso}, seu IMC é {imc:.1f}!")
 

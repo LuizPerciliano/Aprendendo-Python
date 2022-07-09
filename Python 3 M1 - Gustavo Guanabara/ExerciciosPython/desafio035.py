@@ -10,7 +10,21 @@ Por exemplo, dados os segmentos AB = 16 cm, CD = 20 cm e EF = 30 cm, é possíve
 30 + 20 = 50 > 16
 
 5, 1 e 2 nao rola
+---
+https://mundoeducacao.uol.com.br/matematica/condicao-existencia-um-triangulo.htm#:~:text=S%C3%B3%20ir%C3%A1%20existir%20um%20tri%C3%A2ngulo,soma%20dos%20outros%20dois%20lados.
+Só irá existir um triângulo se, somente se, os seus lados obedeceram à seguinte regra:
+um de seus lados deve ser maior que o valor absoluto (módulo) da diferença dos outros dois lados e menor que a soma dos outros dois lados.
 
+ Veja o resumo da regra abaixo:
+| b - c | < a < b + c
+| a - c | < b < a + c
+| a - b | < c < a + b
+
+Exemplo:
+Com os três segmentos de reta medindo 5cm, 10cm e 9cm, podemos formar um triângulo?
+Vamos aplicar a regra da condição de existência de um triângulo para todos os lados.
+|10 – 9| < 5 < 10 + 9
+1 < 5 <19 (VERDADEIRO)
 '''
 
 reta_1 = float(input("Digite a reta 1: "))
