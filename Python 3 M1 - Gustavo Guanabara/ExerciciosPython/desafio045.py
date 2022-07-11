@@ -28,6 +28,19 @@ elif opi == 1 and pc == 2:
     print(f"A pedra é embrulhada pelo papel, YOU LOSE!!!")
 elif opi ==1 and pc == 3:
     print("A pedra quebra a tesoura, YOU WIN!!!")
+elif opi == 2 and pc == 2:
+    print("EMPATE")
+elif opi == 2 and pc == 1:
+    print("O papel cobra a pedra - YOU WIN")
+elif opi == 2 and pc == 3:
+    print("A tesoura corta o papel - YOU LOSE!!!")
+elif opi == 3 and pc == 3:
+    print("EMPATE")
+elif opi == 3 and pc == 1:
+    print("A pedra quebra a tesoura --- YOU LOOOOOSE")
+elif opi == 3 and pc == 2:
+    print("A tesoura corta o papel --- YOU WINNNNNNN")
+
 else:
     print("Vamos tentar novamente!!!")
 
